@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+}
+
+input {
+  border-radius: 16px;
+  border: none;
+  padding: 8px 16px;
+  outline: none;
+}
+
+button {
+  border-radius: 16px;
+  border: none;
+  padding: 4px 16px;
+  margin-right: 2px;
+}
+
+button:hover {
+  background-color: #ff22ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+  color: #990;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.list-row p {
+  margin: 0;
+  padding: 4px;
+}
